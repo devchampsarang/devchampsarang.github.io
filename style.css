@@ -92,8 +92,8 @@ html{
 }
 
 #showcase .showcase-right{
-    margin-top: 80px;
-    margin-left: 5em;
+    margin-top: 200px;
+    /* margin-left: 5em; */
     font-family: 'Hanumn';
 }
 
@@ -105,12 +105,14 @@ html{
 }
 
 #para1{
+    line-height: 1.2em;
     font-size: 40px !important;
     letter-spacing: -1.5px;
     color: whitesmoke;
 
 }
  #para2{
+     line-height: 1.2em !important;
      font-size: 40px;
      line-height: 1.3em;
      letter-spacing: -1.5px;
@@ -312,6 +314,16 @@ textarea:focus, input:focus{
 }
 
 @media (max-width: 768px){
+    #showcase .showcase-right h1{
+        font-size: 50px !important;
+        letter-spacing: -1px;
+    }
+    #para1{
+        font-size: 30px !important;
+    }
+    #para2{
+        font-size: 30px;
+    }
     #bared{
         display: block;
     }
